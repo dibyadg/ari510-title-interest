@@ -1,0 +1,68 @@
+annotation_task_name: "What Makes a Title Interesting"
+task_dir: "."
+port: 8000
+
+data_files:
+  - "data/annotation_master.csv"
+
+item_properties:
+  id_key: "title_id"
+  text_key: "title"
+
+output_annotation_dir: "annotation_output/"
+export_annotation_format:
+  - "csv"
+
+user_config:
+  allow_all_users: false
+  users:
+    - "Annotator_1"
+    - "Annotator_2"
+    - "Annotator_3"
+    - "Annotator_4"
+    - "Annotator_5"
+
+assignment_strategy: batch
+batch_assignment:
+  groups:
+    - name: "annotator_1"
+      annotators: ["Annotator_1"]
+      instances_file: "data/Annotator_1_instances.csv"
+    - name: "annotator_2"
+      annotators: ["Annotator_2"]
+      instances_file: "data/Annotator_2_instances.csv"
+    - name: "annotator_3"
+      annotators: ["Annotator_3"]
+      instances_file: "data/Annotator_3_instances.csv"
+    - name: "annotator_4"
+      annotators: ["Annotator_4"]
+      instances_file: "data/Annotator_4_instances.csv"
+    - name: "annotator_5"
+      annotators: ["Annotator_5"]
+      instances_file: "data/Annotator_5_instances.csv"
+
+max_annotations_per_user: 50
+
+annotation_schemes:
+  - annotation_type: "likert"
+    name: "interest"
+    description: "How likely would you be to consume this content based only on the title?"
+    min_label: "Very unlikely"
+    max_label: "Very likely"
+    size: 6
+    sequential_key_binding: true
+    label_requirement:
+      required: true
+  - annotation_type: "multiselect"
+    name: "clickbait_tactics"
+    description: "Which tactics are present in this title? Select all that apply."
+    labels:
+      - "Missing details"
+      - "Emotional"
+      - "Exaggeration"
+      - "Curiosity gap"
+      - "Direct address"
+      - "None"
+    label_requirement:
+      required: true
+require_password: false
