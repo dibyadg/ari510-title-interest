@@ -3,12 +3,26 @@
 ## Overview
 
 You will read content titles and answer two questions:
+
 1. How likely would you consume this content based only on the title? (1–6)
 2. Which attention-grabbing tactics are present in the title?
 
 The domain is hidden. Do not try to guess where the title came from.
 
 **Time:** ~45–60 seconds per title. You have 50 titles (~1 hour).
+
+---
+
+## How to Annotate
+
+For each title:
+
+1. Read the title.
+2. Click one interest rating (1–6).
+3. Check all tactics that apply.
+4. Click "Next" to continue.
+
+Your progress is saved automatically. You can close the browser and come back later — log in with the same username to continue.
 
 ---
 
@@ -21,39 +35,48 @@ The domain is hidden. Do not try to guess where the title came from.
 - 5 = Likely
 - 6 = Very likely
 
-**Rules:**
+### Rules
+
 - Judge only the title.
 - Give your personal reaction.
 - Do not guess the domain.
 - There are no right or wrong answers.
-- Do not overthink.
+- Do not overthink — go with your first instinct.
 
-**Example:** "I Tried Living Without My Phone for 30 Days"
-- Some annotators might choose 6.
-- Others might choose 2.
+### Example
+
+**Title:** "I Tried Living Without My Phone for 30 Days"
+
+- Some annotators might choose 6 — Very likely.
+- Others might choose 2 — Unlikely.
 - Both are valid.
 
 ---
 
 ## Question 2: Tactics
 
-Check all that apply:
+Check all that apply. A title can have multiple tactics.
 
 | Tactic | When to select | Example |
 |--------|----------------|---------|
-| **Missing Details** | Key info is withheld | "I Tried This for 30 Days" |
-| **Emotional Language** | Strong emotional words | "The Terrifying Truth About..." |
-| **Exaggeration** | Extreme or absolute claims | "The BEST Laptop You Can Buy" |
-| **Curiosity Gap** | Creates unanswered question | "I Quit Social Media — Here's What Happened" |
-| **Direct Address** | Speaks to "you" | "Why Your Sleep Schedule Matters" |
-| **None of the Above** | No tactics apply | "Introduction to Linear Algebra" |
+| Missing Details | Key info is withheld | "I Tried This for 30 Days" |
+| Emotional Language | Strong emotional words | "The Terrifying Truth About..." |
+| Exaggeration | Extreme or absolute claims | "The BEST Laptop You Can Buy" |
+| Curiosity Gap | Creates unanswered question | "I Quit Social Media — Here's What Happened" |
+| Direct Address | Speaks to "you" | "Why Your Sleep Schedule Matters" |
+| None of the Above | No tactics apply | "Introduction to Linear Algebra" |
 
-**Notes:**
+### Notes
+
 - A title can have multiple tactics.
 - Do not select "None" with another tactic.
-- Missing Details = info is missing. Curiosity Gap = outcome is unknown.
+- **Missing Details** = info is missing.
+- **Curiosity Gap** = outcome is unknown.
 
-**Example:** "You Won't Believe the Terrifying Mistake That Could Ruin Your Career"
+### Example
+
+**Title:** "You Won't Believe the Terrifying Mistake That Could Ruin Your Career"
+
 - Missing Details 
 - Emotional Language 
 - Exaggeration 
