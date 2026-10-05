@@ -2,7 +2,7 @@
 
 The full dataset is available on Google Drive:
 
-[Google Drive Link][(https://drive.google.com/file/d/1HVghd9onHMDDt1a4nk5TVvfbpOO4RWs9/view?usp=drive_link)]
+[Google Drive Link](https://drive.google.com/file/d/1HVghd9onHMDDt1a4nk5TVvfbpOO4RWs9/view?usp=drive_link)
 
 ## Files
 
